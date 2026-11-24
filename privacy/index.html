@@ -27,6 +27,8 @@ device.</li>
 information to show and measure ads.</li>
 <li>Purchases are handled by the App Store or Google Play. We never see your payment
 details.</li>
+<li>We use Google Firebase to count how the game is played and to adjust game settings,
+without your advertising identifier and never for ads.</li>
 </ul>
 <div class="markdown-heading"><h2 class="heading-element">Information stored on your device</h2><a id="user-content-information-stored-on-your-device" class="anchor" aria-label="Permalink: Information stored on your device" href="#information-stored-on-your-device"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
 <p>Your progress is saved on your device only: levels and stars, seeds, your life list,
@@ -70,9 +72,14 @@ identifier, the app version, your device's country and IP address. See
 <a href="https://www.revenuecat.com/privacy" rel="nofollow">https://www.revenuecat.com/privacy</a>.</p>
 <div class="markdown-heading"><h2 class="heading-element">Analytics and game settings</h2><a id="user-content-analytics-and-game-settings" class="anchor" aria-label="Permalink: Analytics and game settings" href="#analytics-and-game-settings"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
 <p>We use Google Analytics for Firebase to understand how the game is played. Examples
-include levels started and finished, stars earned, hints used and ads offered. These
-events carry an app instance identifier and device information. They do not include
-your name or contact details.</p>
+include levels started and finished, stars earned, hints used, purchases, and ads offered
+and shown. These events carry a random app instance identifier, device and app
+information (model, operating system, app version, language) and an approximate location
+(country or region, derived by Google from your IP address). They do not include your
+name or contact details.</p>
+<p>Analytics does not collect your advertising identifier, is not linked to the ads in the
+game, and is never used for ad personalization. Analytics data is kept for 2 months and
+then deleted by Google.</p>
 <p>The game also downloads its settings, such as prices in seeds and how often ads appear,
 from Firebase Remote Config. To do this it sends a Firebase installation identifier, the
 app version, the device's language and country, and analytics audiences if any. We may
@@ -92,7 +99,9 @@ live). We do not knowingly collect personal information from children.</p>
 <li>uninstall the game, or</li>
 <li>reset the save, where that option is available.</li>
 </ul>
-<p>For data held by Google for ads or analytics, see Google's policies linked above.</p>
+<p>For data held by Google for ads or analytics, see Google's policies linked above.
+Analytics data is deleted after 2 months; uninstalling the game also resets its app
+instance identifier, so later events are not linked to earlier ones.</p>
 <div class="markdown-heading"><h2 class="heading-element">Changes</h2><a id="user-content-changes" class="anchor" aria-label="Permalink: Changes" href="#changes"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
 <p>If this policy changes, we will update the effective date above and the policy linked
 from the store listing.</p>
